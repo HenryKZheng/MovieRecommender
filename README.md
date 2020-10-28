@@ -17,22 +17,22 @@
  > * Each member of the group **must** be committing code regularly and make sure their code is correctly attributed to them. We will be checking attributions to determine if there was equal contribution to the project.
 
 ## Project Description
- > * Purpose
+ > * Purpose <br />
  > Our project is called MovieRec. This program will allow users to input a movie and upon receiving it, our program will run through 
  a list of different movies and recommend three movies they might like based on the information they gave the program. To accomplish this, we would 
  navigate through a list of movies and compare the genre and rating of the chosen movie with the movies in the list. The final output will be 3 movies that 
  most closely match with the user's movie. 
  
- > * Why we Chose MovieRec
+ > * Why we Chose MovieRec <br />
  We decided to do this project because our group really enjoys watching different movies and thought it would be a neat idea to have a program that would
  recommend different movies when we run out of things to watch.
- > * Tools
- [Movie List](https://data.world/owentemple/greatest-films-of-all-time/workspace/file?filename=guardian_2010_greatest_films_of_all_time.csv) - list of movies to compare with users movie
- [C++] - language 
+ > * Tools <br />
+ [Movie List](https://data.world/owentemple/greatest-films-of-all-time/workspace/file?filename=guardian_2010_greatest_films_of_all_time.csv) - list of movies to compare with users movie <br />
+ [C++] - language <br />
  
- > * Input and Output
- Input: Movie chosen by user along with genre
- Output: 3 recommended movies based on the movie and genre they chose
+ > * Input and Output <br />
+ Input: Movie chosen by user along with genre <br />
+ Output: 3 recommended movies based on the movie and genre they chose <br />
  
  > * Design Patterns
  
