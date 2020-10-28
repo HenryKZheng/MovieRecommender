@@ -1,10 +1,10 @@
- > As you complete each section you **must** remove the prompt text. Every *turnin* of this project includes points for formatting of this README so keep it clean and keep it up to date. 
+  > As you complete each section you **must** remove the prompt text. Every *turnin* of this project includes points for formatting of this README so keep it clean and keep it up to date. 
  > Prompt text is any lines beginning with "\<"
  > Replace anything between \<...\> with your project specifics and remove angle brackets. For example, you need to name your project and replace the header right below this line with that title (no angle brackets). 
-# \<Project title\>
+# MovieRec
  > Your author list below should include links to all members GitHub and should begin with a "\<" (remove existing author).
  
- > Authors: \<[Henry Zheng(hzhen055)](https://github.com/HenryKZheng)\>
+ > Authors: \<[Nathanael Shin](https:://github.com/nks738)\>, \<[Henry Zheng(hzhen055)](https://github.com/HenryKZheng)\>
  
  > You will be forming a group of **THREE** students and work on an interesting project that you will propose yourself (in this `README.md` document). You can pick any project that you'd like, but it needs ot implement three design patterns. Each of the members in a group is expected to work on at least one design pattern and its test cases. You can, of course, help each other, but it needs to be clear who will be responsible for which pattern and for which general project features.
  
@@ -17,8 +17,28 @@
  > * Each member of the group **must** be committing code regularly and make sure their code is correctly attributed to them. We will be checking attributions to determine if there was equal contribution to the project.
 
 ## Project Description
+ > * Purpose
+ > Our project is called MovieRec. This program will allow users to input a movie and upon receiving it, our program will run through 
+ a list of different movies and recommend three movies they might like based on the information they gave the program. To accomplish this, we would 
+ navigate through a list of movies and compare the genre and rating of the chosen movie with the movies in the list. The final output will be 3 movies that 
+ most closely match with the user's movie. 
+ 
+ > * Why we Chose MovieRec
+ We decided to do this project because our group really enjoys watching different movies and thought it would be a neat idea to have a program that would
+ recommend different movies when we run out of things to watch.
+ > * Tools
+ [Movie List](https://data.world/owentemple/greatest-films-of-all-time/workspace/file?filename=guardian_2010_greatest_films_of_all_time.csv) - list of movies to compare with users movie
+ [C++] - language 
+ 
+ > * Input and Output
+ Input: Movie chosen by user along with genre
+ Output: 3 recommended movies based on the movie and genre they chose
+ 
+ > * Design Patterns
+ 
  > Your project description should summarize the project you are proposing. Be sure to include
  > * Why is it important or interesting to you?
+ >
  > * What languages/tools/technologies do you plan to use? (This list may change over the course of the project)
  >   * [toolname](link) - Short description
  > * What will be the input/output of your project?
@@ -59,4 +79,3 @@
  > Instructions on installing and running your application
  ## Testing
  > How was your project tested/validated? If you used CI, you should have a "build passing" badge in this README.
- 
