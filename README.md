@@ -35,7 +35,9 @@
  Output: 3 recommended movies based on the movie and genre they chose <br />
  
  > * Design Patterns <br />
-Composite Design Pattern: Since the Composite design pattern revolves around a style of designing that incoporates a group of objects that would be treated as instances of the same object, we believe this pattern would work well with the hundreds of movie objects we plan on creating, as they are all essentially the same type of object. <br />
+Composite Design Pattern: <br />
+Since the Composite design pattern revolves around a style of designing that incoporates a group of objects that would be treated as instances of the same object, we believe this pattern would work well with the hundreds of movie objects we plan on creating, as they are all essentially the same type of object. <br />
+
  
  > Your project description should summarize the project you are proposing. Be sure to include
  > * Why is it important or interesting to you?
