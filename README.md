@@ -35,7 +35,7 @@
  Output: 3 recommended movies based on the movie and genre they chose <br />
  
  > * Design Patterns
- 
+ * Composite Design Pattern 
  > Your project description should summarize the project you are proposing. Be sure to include
  > * Why is it important or interesting to you?
  >
