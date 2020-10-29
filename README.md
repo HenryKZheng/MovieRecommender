@@ -4,7 +4,7 @@
 # MovieRec
  > Your author list below should include links to all members GitHub and should begin with a "\<" (remove existing author).
  
- > Authors: \<[Nathanael Shin(nshin014)](https:://github.com/nks738)\>, \<[Henry Zheng(hzhen055)](https://github.com/HenryKZheng)\>, \<[John-Paul Sassine(jsass003)](https://github.com/jpsassine)\>
+ > Authors: \<[Nathanael Shin(nshin014)](https:://github.com/nks738)\>, \<[Henry Zheng(hzhen055)](https://github.com/HenryKZheng)\>
  
  > You will be forming a group of **THREE** students and work on an interesting project that you will propose yourself (in this `README.md` document). You can pick any project that you'd like, but it needs ot implement three design patterns. Each of the members in a group is expected to work on at least one design pattern and its test cases. You can, of course, help each other, but it needs to be clear who will be responsible for which pattern and for which general project features.
  
@@ -36,7 +36,7 @@
  
  > * Design Patterns <br />
 Composite Design Pattern: <br />
-Since the Composite design pattern revolves around a style of designing that incoporates a group of objects that would be treated as instances of the same object, we believe this pattern would work well with the hundreds of movie objects we plan on creating, as they are all essentially the same type of object. <br />
+Since the Composite design pattern revolves around a style of designing that incoporates a group of objects that would be treated as instances of the same object, we believe we could use the composite design pattern when dealing with movie categories that  are within other categories. (Example: Rom-com category under Comedy category)<br />
 
  
  > Your project description should summarize the project you are proposing. Be sure to include
