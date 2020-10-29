@@ -38,7 +38,7 @@
 Composite Design Pattern: <br />
 Since the Composite design pattern revolves around a style of designing that incoporates a group of objects that would be treated as instances of the same object, we believe we could use this pattern when dealing with subcategories within categories(such as different categories under seasonal categories) <br />
 
-> * Iterator Design Pattern: <br />
+Iterator Design Pattern: <br />
 Since this design pattern deals with traversal of elements wihtout revealing their representation, we would use this pattern when dealing with filters where we want to look over hundreds of movies.  <br />
 
 
