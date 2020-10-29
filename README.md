@@ -36,7 +36,7 @@
  
  > * Design Patterns <br />
 Composite Design Pattern: <br />
-Since the Composite design pattern revolves around a style of designing that incoporates a group of objects that would be treated as instances of the same object, we believe this pattern would work well with the hundreds of movie objects we plan on creating, as they are all essentially the same type of object. <br />
+Since the Composite design pattern revolves around a style of designing that incoporates a group of objects that would be treated as instances of the same object, we believe we could use this pattern when dealing with subcategories within categories(such as different categories under seasonal categories) <br />
 
  
  > Your project description should summarize the project you are proposing. Be sure to include
