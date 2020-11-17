@@ -38,8 +38,8 @@
 Composite Design Pattern: <br />
 Since the Composite design pattern revolves around a style of designing that incoporates a group of objects that would be treated as instances of the same object, we believe we could use this pattern when dealing with subcategories within categories(such as different categories under seasonal categories). For example, when comparing movies, the user could input a subcategory like rom-com in the comedy genre to narrow down the search even more. <br />
 
-> * Iterator Design Pattern: <br />
-Since this design pattern deals with traversal of elements wihtout revealing their representation, we would use this pattern when dealing with filters where we want to look over hundreds of movies. One primary feature this will be used is specifically our search algorithms and our display algortihms. This pattern will greatly aid in the proper dissemination of output. <br />
+> * Strategy Design Pattern: <br />
+Due to the fact that our project has various features that require different algorithms to organize and present the movies, we will use the strategy design pattern to give us the ability to switch through algorithms as we see fit and give us more control over the various features. This way we can organize our different “sorts” (sort by alphabetical order, sort by best rated, etc.). <br />
 
 > * Abstract Factory Design Patter: <br />
 This design pattern will aid us in the creation of the initial objects, as these movie objects will have many sub classes that they can be categorized into (i.e genre, season, length). One piece of functionality that we will incorporate using the abstract factory pattern is the direct conversion of data into objects using classes of movies and gnere subclasses. Organization is key for user likeability so this will be very beneficial to help establish organization of the objects while still having robust identification from the beginning.
