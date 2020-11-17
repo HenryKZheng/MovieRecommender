@@ -51,7 +51,9 @@ This design pattern will aid us in the creation of the initial objects, as these
  > ## Phase II
  > See "Projects" to view the Kanban board.
 ## Class Diagram
- > [Class Diagram Pdf](https://docs.google.com/document/d/1UGaLc2IRItv8rr7CdorPAZRnFPul-63u_8dYE24Q2Ig/edit) 
+
+ > [Class Diagram Pdf](https://docs.google.com/document/d/1UGaLc2IRItv8rr7CdorPAZRnFPul-63u_8dYE24Q2Ig/edit)
+ > [class diagram] https://github.com/cs100/final-project-hnp/blob/master/Project%20Class%20Diagram.pdf
  
  > ## Phase III
  > You will need to schedule a check-in with the TA (during lab hours or office hours). Your entire team must be present. 
