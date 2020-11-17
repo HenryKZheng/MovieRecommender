@@ -49,15 +49,7 @@ This design pattern will aid us in the creation of the initial objects, as these
  <br />
 
  > ## Phase II
- > In addition to completing the "Class Diagram" section below, you will need to 
- > * Set up your GitHub project board as a Kanban board for the project. It should have columns that map roughly to 
- >   * Backlog, TODO, In progress, In testing, Done
- >   * You can change these or add more if you'd like, but we should be able to identify at least these.
- > * There is no requirement for automation in the project board but feel free to explore those options.
- > * Create an "Epic" (note) for each feature and each design pattern and assign them to the appropriate team member. Place these in the `Backlog` column
- > * Complete your first *sprint planning* meeting to plan out the next 7 days of work.
- >   * Create smaller development tasks as issues and assign them to team members. Place these in the `Backlog` column.
- >   * These cards should represent roughly 7 days worth of development time for your team, taking you until your first meeting with the TA
+ > See "Projects" to view the Kanban board.
 ## Class Diagram
  > https://docs.google.com/document/d/1UGaLc2IRItv8rr7CdorPAZRnFPul-63u_8dYE24Q2Ig/edit 
  
