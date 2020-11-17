@@ -51,7 +51,6 @@ This design pattern will aid us in the creation of the initial objects, as these
  > ## Phase II
  > See "Projects" to view the Kanban board.
 ## Class Diagram
-
  > [class diagram] (https://github.com/cs100/final-project-hnp/blob/master/Project%20Class%20Diagram.pdf)
  
  > ## Phase III
