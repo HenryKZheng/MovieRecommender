@@ -55,10 +55,17 @@ This design pattern will aid us in the creation of the initial objects, as these
  
  > ## Phase III
  > * In the meeting with your TA you will discuss: 
- >   - How effective your last sprint was (each member should talk about what they did):
- >   - Any tasks that did not get completed last sprint, and how you took them into consideration for this sprint:
- >   - Any bugs you've identified and created issues for during the sprint. Do you plan on fixing them in the next sprint or are they lower priority?
- >   - What tasks you are planning for this next sprint.
+ > * How effective your last sprint was (each member should talk about what they did):<br />
+ Our last sprint was effective. Even though we had midterms and were only able to accomplish around 60-75% of what we had originally planned, what we had planned on  our first sprint allowed us to still stay on track and make an effort to not lag behind. 
+ 
+ > * Any tasks that did not get completed last sprint, and how you took them into consideration for this sprint:<br />
+We did not complete our implementation of our strategy and factory pattern (sorting functions as well as creating classes), and we definitely took these into consideration for this sprint. We created kanban issues to brainstorm ideas on how to resolve these blockers. When creating the class diagram, we thought the patterns would be easier to implement, but the more we coded, the more we realized we had more problems to account for. 
+
+ > *Any bugs you've identified and created issues for during the sprint. Do you plan on fixing them in the next sprint or are they lower priority?<br />
+For the next sprint, we plan on beginning to create test cases for each of the files. We also found out that we will need to design our composite pattern a bit differently, and ended up changing the different variables within the objects. However, the objects themselves should remain the exact same. One bug or challenge we encountered was creating the constructors for the Movie, Category, and Media classes. We plan on taking this into account into the next sprint by emphasizing massive work in these areas, as well as focusing more time on developing the factory pattern to suit this project.  
+One major “wall” we ran into was implementing the Strategy pattern, in which we had to account for a lot more factors we didn’t originally know we had to look out for. Our recAlgo class, in theory, would end up conflicting with what our sortAlgo class did, as both classes have a lot of overlap, so we are thinking of just combining the two abstract classes to make a single Algo class. We are currently still brainstorming together to get this part of the strategy pattern sorted out. 
+
+ > *What tasks you are planning for this next sprint.<br />
 
  > ## Final deliverable
  > All group members will give a demo to the TA during lab time. The TA will check the demo and the project GitHub repository and ask a few questions to all the team members. 
