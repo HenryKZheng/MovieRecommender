@@ -66,7 +66,9 @@ For the next sprint, we plan on beginning to create test cases for each of the f
 One major “wall” we ran into was implementing the Strategy pattern, in which we had to account for a lot more factors we didn’t originally know we had to look out for. Our recAlgo class, in theory, would end up conflicting with what our sortAlgo class did, as both classes have a lot of overlap, so we are thinking of just combining the two abstract classes to make a single Algo class. We are currently still brainstorming together to get this part of the strategy pattern sorted out. 
 
  > * What tasks you are planning for this next sprint. <br />
- > * * Start writing unit tests for different classes
+  * * Start writing unit tests for different classes (for Media.hpp, Movie.hpp, etc.)
+  * * Work on breaking the wall for strategy pattern (Possibly combine recAlgo and sortAlgo)
+  * * Organize and clean up dataset 
 
  > ## Final deliverable
  > All group members will give a demo to the TA during lab time. The TA will check the demo and the project GitHub repository and ask a few questions to all the team members. 
