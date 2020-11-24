@@ -65,7 +65,8 @@ We did not complete our implementation of our strategy and factory pattern (sort
 For the next sprint, we plan on beginning to create test cases for each of the files. We also found out that we will need to design our composite pattern a bit differently, and ended up changing the different variables within the objects. However, the objects themselves should remain the exact same. One bug or challenge we encountered was creating the constructors for the Movie, Category, and Media classes. We plan on taking this into account into the next sprint by emphasizing massive work in these areas, as well as focusing more time on developing the factory pattern to suit this project.  
 One major “wall” we ran into was implementing the Strategy pattern, in which we had to account for a lot more factors we didn’t originally know we had to look out for. Our recAlgo class, in theory, would end up conflicting with what our sortAlgo class did, as both classes have a lot of overlap, so we are thinking of just combining the two abstract classes to make a single Algo class. We are currently still brainstorming together to get this part of the strategy pattern sorted out. 
 
- > *What tasks you are planning for this next sprint.<br />
+ > * What tasks you are planning for this next sprint. <br />
+ > * * Start writing unit tests for different classes
 
  > ## Final deliverable
  > All group members will give a demo to the TA during lab time. The TA will check the demo and the project GitHub repository and ask a few questions to all the team members. 
