@@ -104,4 +104,4 @@ One major “wall” we ran into was implementing the Strategy pattern, in which
  <br /> Run ./a.out
  <br />Afterwards, a menu appears and you simply input the option you want. With this program, you should have brand new movies that you will most likely like to watch!
  ## Testing
- > How was your project tested/validated? If you used CI, you should have a "build passing" badge in this README.
+ > We used gtest to test our program. 
