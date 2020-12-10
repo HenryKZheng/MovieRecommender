@@ -80,13 +80,21 @@ One major “wall” we ran into was implementing the Strategy pattern, in which
  ## Screenshots
  > Screenshots of the input/output after running your application
 ![option1](https://user-images.githubusercontent.com/57116759/101769096-52e4cb80-3a9b-11eb-922e-84a017bf2e86.png)
+> * This is our first option, where we present to the user the top 10 rated movies.
 ![option2](https://user-images.githubusercontent.com/57116759/101769103-55472580-3a9b-11eb-9c64-a97d68df8850.png)
+> * This is our second option, where we present to the user the top 10 actor-related movies.
 ![option3](https://user-images.githubusercontent.com/57116759/101769112-5710e900-3a9b-11eb-89dc-1f9917956df2.png)
+> * This is our third option, where we present to the user the top 10 genre-related movies movies.
 ![option4](https://user-images.githubusercontent.com/57116759/101769129-5c6e3380-3a9b-11eb-97b3-9206d5b95938.png)
+> * This is our fourth option, where we present prompt the user for a movie and will recommend them recommendations based through the alogrithm we created, which takes into account director, actors, and genres.
 ![option4pt2](https://user-images.githubusercontent.com/57116759/101769136-5f692400-3a9b-11eb-8281-f5a8e06d0a6d.png)
+> * This is another input/output from our fourth option. 
 ![option4pt3](https://user-images.githubusercontent.com/57116759/101769141-6132e780-3a9b-11eb-98b9-8c4fb57585ba.png)
+> * This is another input/output from our fourth option. 
 ![option5](https://user-images.githubusercontent.com/57116759/101769146-642dd800-3a9b-11eb-9077-08ef7e632926.png)
+> * This is our fifth option, where we present to the user the top 10 most recent movies.
 ![option6](https://user-images.githubusercontent.com/57116759/101769148-655f0500-3a9b-11eb-80e5-e312ab70b260.png)
+> * This is our sixth option, where we present to the user the top 10 director-related movies.
 
  ## Installation/Usage
  > To be able to run our program, [boost library](https://www.boost.org/) must be installed on your machine.
