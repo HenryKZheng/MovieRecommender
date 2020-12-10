@@ -81,9 +81,9 @@ One major “wall” we ran into was implementing the Strategy pattern, in which
  > Screenshots of the input/output after running your application
  ## Installation/Usage
  > To use our program, simply run:
- > cmake3 .
- > make
- > ./movieRec
- >Afterwards, a menu appears and you simply input the option you want. With this program, you should have brand new movies that you will most likely like to watch!
+ <br /> cmake3 .
+ <br /> make
+ <br /> ./movieRec
+ <br />Afterwards, a menu appears and you simply input the option you want. With this program, you should have brand new movies that you will most likely like to watch!
  ## Testing
  > How was your project tested/validated? If you used CI, you should have a "build passing" badge in this README.
