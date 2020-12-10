@@ -80,7 +80,8 @@ One major “wall” we ran into was implementing the Strategy pattern, in which
  ## Screenshots
  > Screenshots of the input/output after running your application
  ## Installation/Usage
- > To use our program, simply run:
+ > To be able to run our program, [boost library](https://www.boost.org/) must be installed on your machine.
+ <br /> To use our program, simply run:
  <br /> cmake3 .
  <br /> make
  <br /> ./movieRec
