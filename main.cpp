@@ -107,7 +107,9 @@ void menu(Factory* movie) {
         
       }
       else{
+        if (choice !=9){
         cout << "Invalid Input: Choose 1-5" << endl << endl;
+        }
       }
   }while(choice != 9);
 }
