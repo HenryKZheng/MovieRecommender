@@ -13,9 +13,10 @@ class Media {
 
   public: 
     Media() : title(""), genres() {};
-    Media(string title, vector<string>genres) : title(title), vector<string>genres(genres){}
+    Media(string title, vector<string>genres) : title(title), genres(genres){};
     virtual string getTitle() = 0; 
-    virtual int getType() = 0; //1 for movie, 2 for category
+    virtual void setTitle(string title_to_add) = 0; 
+    virtual int getType() = 0; /*1 for movie, 2 for category*/
 
 
 };
