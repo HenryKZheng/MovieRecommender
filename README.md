@@ -79,6 +79,15 @@ One major “wall” we ran into was implementing the Strategy pattern, in which
  > * Plan one more sprint (that you will not necessarily complete before the end of the quarter). Your In-progress and In-testing columns should be empty (you are not doing more work currently) but your TODO column should have a full sprint plan in it as you have done before. This should include any known bugs (there should be some) or new features you would like to add. These should appear as issues/cards on your Kanban board. 
  ## Screenshots
  > Screenshots of the input/output after running your application
+![option1](https://user-images.githubusercontent.com/57116759/101769096-52e4cb80-3a9b-11eb-922e-84a017bf2e86.png)
+![option2](https://user-images.githubusercontent.com/57116759/101769103-55472580-3a9b-11eb-9c64-a97d68df8850.png)
+![option3](https://user-images.githubusercontent.com/57116759/101769112-5710e900-3a9b-11eb-89dc-1f9917956df2.png)
+![option4](https://user-images.githubusercontent.com/57116759/101769129-5c6e3380-3a9b-11eb-97b3-9206d5b95938.png)
+![option4pt2](https://user-images.githubusercontent.com/57116759/101769136-5f692400-3a9b-11eb-8281-f5a8e06d0a6d.png)
+![option4pt3](https://user-images.githubusercontent.com/57116759/101769141-6132e780-3a9b-11eb-98b9-8c4fb57585ba.png)
+![option5](https://user-images.githubusercontent.com/57116759/101769146-642dd800-3a9b-11eb-9077-08ef7e632926.png)
+![option6](https://user-images.githubusercontent.com/57116759/101769148-655f0500-3a9b-11eb-80e5-e312ab70b260.png)
+
  ## Installation/Usage
  > To be able to run our program, [boost library](https://www.boost.org/) must be installed on your machine.
  <br /> To use our program, simply download VS Code or another IDE to run (Boost library does not work on hammer):
