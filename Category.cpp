@@ -14,13 +14,14 @@ vector<string> Category::getGenres(){
   return this->genres; 
 }
 
+void Category::addMovie(Movie* movie_to_add){
+  this->movie_List.push_back(movie_to_add);
+}
+
 int Category::getType(){
   return 2; 
 }
 
-void Category::addMovie(Movie* movie_to_add){
-  this->movie_List.push_back(movie_to_add);
-}
 
 void Category::addCategory(Category* category_to_add){
   this->category_List.push_back(category_to_add);
