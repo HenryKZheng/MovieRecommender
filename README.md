@@ -54,13 +54,23 @@ This design pattern will aid us in the creation of the initial objects, as these
  > [class diagram](https://github.com/cs100/final-project-hnp/blob/master/Project%20Class%20Diagram.pdf)
  
  > ## Phase III
- > You will need to schedule a check-in with the TA (during lab hours or office hours). Your entire team must be present. 
- > * Before the meeting you should perform a sprint plan like you did in Phase II
  > * In the meeting with your TA you will discuss: 
- >   - How effective your last sprint was (each member should talk about what they did)
- >   - Any tasks that did not get completed last sprint, and how you took them into consideration for this sprint
- >   - Any bugs you've identified and created issues for during the sprint. Do you plan on fixing them in the next sprint or are they lower priority?
- >   - What tasks you are planning for this next sprint.
+ > * How effective your last sprint was (each member should talk about what they did):<br />
+ Our last sprint was effective. Even though we had midterms and were only able to accomplish around 60-75% of what we had originally planned, what we had planned on  our first sprint allowed us to still stay on track and make an effort to not lag behind. 
+ 
+ > * Any tasks that did not get completed last sprint, and how you took them into consideration for this sprint:<br />
+We did not complete our implementation of our strategy and factory pattern (sorting functions as well as creating classes), and we definitely took these into consideration for this sprint. We created kanban issues to brainstorm ideas on how to resolve these blockers. When creating the class diagram, we thought the patterns would be easier to implement, but the more we coded, the more we realized we had more problems to account for. 
+
+ > * Any bugs you've identified and created issues for during the sprint. Do you plan on fixing them in the next sprint or are they lower priority? <br />
+For the next sprint, we plan on beginning to create test cases for each of the files. We also found out that we will need to design our composite pattern a bit differently, and ended up changing the different variables within the objects. However, the objects themselves should remain the exact same. One bug or challenge we encountered was creating the constructors for the Movie, Category, and Media classes. We plan on taking this into account into the next sprint by emphasizing massive work in these areas, as well as focusing more time on developing the factory pattern to suit this project.  
+One major “wall” we ran into was implementing the Strategy pattern, in which we had to account for a lot more factors we didn’t originally know we had to look out for. Our recAlgo class, in theory, would end up conflicting with what our sortAlgo class did, as both classes have a lot of overlap, so we are thinking of just combining the two abstract classes to make a single Algo class. We are currently still brainstorming together to get this part of the strategy pattern sorted out. 
+
+ > * What tasks you are planning for this next sprint. <br />
+ > - Start writing unit tests for different classes (for Media.hpp, Movie.hpp, etc.).
+ > - Work on breaking the wall for strategy pattern (Possibly combine recAlgo and sortAlgo).
+ > - Organize and clean up dataset.
+ > - Work on breaking the wall for factory pattern. 
+ 
 
  > ## Final deliverable
  > All group members will give a demo to the TA during lab time. The TA will check the demo and the project GitHub repository and ask a few questions to all the team members. 
@@ -69,7 +79,29 @@ This design pattern will aid us in the creation of the initial objects, as these
  > * Plan one more sprint (that you will not necessarily complete before the end of the quarter). Your In-progress and In-testing columns should be empty (you are not doing more work currently) but your TODO column should have a full sprint plan in it as you have done before. This should include any known bugs (there should be some) or new features you would like to add. These should appear as issues/cards on your Kanban board. 
  ## Screenshots
  > Screenshots of the input/output after running your application
+![option1](https://user-images.githubusercontent.com/57116759/101769096-52e4cb80-3a9b-11eb-922e-84a017bf2e86.png)
+> * This is our first option, where we present to the user the top 10 rated movies.
+![option2](https://user-images.githubusercontent.com/57116759/101769103-55472580-3a9b-11eb-9c64-a97d68df8850.png)
+> * This is our second option, where we present to the user the top 10 actor-related movies.
+![option3](https://user-images.githubusercontent.com/57116759/101769112-5710e900-3a9b-11eb-89dc-1f9917956df2.png)
+> * This is our third option, where we present to the user the top 10 genre-related movies movies.
+![option4](https://user-images.githubusercontent.com/57116759/101769129-5c6e3380-3a9b-11eb-97b3-9206d5b95938.png)
+> * This is our fourth option, where we present prompt the user for a movie and will recommend them recommendations based through the alogrithm we created, which takes into account director, actors, and genres.
+![option4pt2](https://user-images.githubusercontent.com/57116759/101769136-5f692400-3a9b-11eb-8281-f5a8e06d0a6d.png)
+> * This is another input/output from our fourth option. 
+![option4pt3](https://user-images.githubusercontent.com/57116759/101769141-6132e780-3a9b-11eb-98b9-8c4fb57585ba.png)
+> * This is another input/output from our fourth option. 
+![option5](https://user-images.githubusercontent.com/57116759/101769146-642dd800-3a9b-11eb-9077-08ef7e632926.png)
+> * This is our fifth option, where we present to the user the top 10 most recent movies.
+![option6](https://user-images.githubusercontent.com/57116759/101769148-655f0500-3a9b-11eb-80e5-e312ab70b260.png)
+> * This is our sixth option, where we present to the user the top 10 director-related movies.
+
  ## Installation/Usage
- > Instructions on installing and running your application
+ > To be able to run our program, [boost library](https://www.boost.org/) must be installed on your machine.
+ <br /> To use our program, simply download VS Code or another IDE to run (Boost library does not work on hammer):
+ <br /> Download our files
+ <br /> Run the code in the terminal, by typing "g++ main.cpp DisplayStrategy.cpp Factory.cpp Media.hpp Movie.cpp -std=c++11"
+ <br /> Run ./a.out
+ <br />Afterwards, a menu appears and you simply input the option you want. With this program, you should have brand new movies that you will most likely like to watch!
  ## Testing
  > How was your project tested/validated? If you used CI, you should have a "build passing" badge in this README.
