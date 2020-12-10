@@ -81,10 +81,10 @@ One major “wall” we ran into was implementing the Strategy pattern, in which
  > Screenshots of the input/output after running your application
  ## Installation/Usage
  > To be able to run our program, [boost library](https://www.boost.org/) must be installed on your machine.
- <br /> To use our program, simply run:
- <br /> cmake3 .
- <br /> make
- <br /> ./movieRec
+ <br /> To use our program, simply download VS Code or another IDE to run (Boost library does not work on hammer):
+ <br /> Download our files
+ <br /> Run the code in the terminal, by typing "g++ main.cpp DisplayStrategy.cpp Factory.cpp Media.hpp Movie.cpp -std=c++11"
+ <br /> Run ./a.out
  <br />Afterwards, a menu appears and you simply input the option you want. With this program, you should have brand new movies that you will most likely like to watch!
  ## Testing
  > How was your project tested/validated? If you used CI, you should have a "build passing" badge in this README.
